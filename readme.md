@@ -75,13 +75,7 @@ The Organ Donation and Procurement Management System (ODPMS) is designed to stre
 - Access the application at `http://localhost:5000`.
 - Register as a donor, manage organ procurement and allocation, track logistics, and generate reports.
 
-## Video Tutorial
 
-Watch the video tutorial below:
-
-<video width="600" controls>
-  <source src="https://drive.google.com/file/d/1VqtL4x0pD9-G61lCS1bWbEzUtrKG1ya9/view?usp=sharing" type="video/mp4">
-</video>
 
 ## Contributing
 
