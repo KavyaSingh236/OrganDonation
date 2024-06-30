@@ -1,6 +1,4 @@
-Here's the short README with the video embedded:
 
----
 
 # Organ Donation and Procurement Management System (ODPMS)
 
@@ -82,7 +80,7 @@ The Organ Donation and Procurement Management System (ODPMS) is designed to stre
 Watch the video tutorial below:
 
 <video width="600" controls>
-  <source src="demovideo.mp4" type="video/mp4">
+  <source src="https://drive.google.com/file/d/1VqtL4x0pD9-G61lCS1bWbEzUtrKG1ya9/view?usp=sharing" type="video/mp4">
 </video>
 
 ## Contributing
