@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+<html>
+
+<head>
+  <title>Login Page</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap");
+
+    body {
+      background:#ffff;
+
+    }
+
+    .jumbotron {
+      
+    background-color: #ffff;
+      background-size: cover;
+      z-index: 1;
+      font-family: "Protest Riot", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+
+    }
+    .img {
+      margin-left: 15vh;
+      margin-top:-60px;
+    }
+
+    .wrapper {
+      background-color: rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(10px);
+      width: 400px;
+      border-radius: 8px;
+      border: 0.2px solid black;
+      padding: 30px;
+      margin: 0px auto;
+      margin-top: -50vh;
+      margin-left: 125vh;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .form-group {
+      font-weight: bolder;
+      font-family: 'Times New Roman', Times, serif;
+      color: black;
+    }
+    .btn {
+      background-color: #b64f6b;
+      color: #fff;
+      text-align: center;
+      cursor: pointer;
+      outline: none;
+      border-radius: 20px;
+    }
+    .svgcon{
+      margin-top: -25vh;
+      z-index: -1;
+      bottom: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="jumbotron">
+    <center>
+      <h1 class="display-4">
+        Organ Donation and Procurement Management System
+      </h1>
+    </center>
+  </div>
+  <div class="img">
+    <img src="/static/loginbg.png" alt="loginimg">
+  </div>
+  <div class="wrapper">
+    <form class="container" action="/login" method="POST">
+      <div class="form-group">
+        <label>Username</label>
+        <input name="username" type="text" class="form-control" id="inputUsername" aria-describedby="emailHelp"
+          placeholder="Enter username" />
+      </div>
+      <div class="form-group">
+        <label>Password</label>
+        <input name="password" type="password" class="form-control" id="inputPassword" placeholder="Password" />
+      </div>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </div>
+  <div class="svgcon">
+    <svg width="100%" height="50%" id="svg" viewBox="0 0 1440 590" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><defs><linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%"><stop offset="5%" stop-color="#b64f6b"></stop><stop offset="95%" stop-color="#8ED1FC"></stop></linearGradient></defs><path d="M 0,600 L 0,300 C 111.0622009569378,335.52153110047846 222.1244019138756,371.04306220095697 327,367 C 431.8755980861244,362.95693779904303 530.5645933014355,319.3492822966507 618,274 C 705.4354066985645,228.6507177033493 781.6172248803829,181.55980861244018 874,166 C 966.3827751196171,150.44019138755982 1074.9665071770335,166.41148325358853 1172,144 C 1269.0334928229665,121.58851674641147 1354.5167464114834,60.794258373205736 1440,0 L 1440,600 L 0,600 Z" stroke="none" stroke-width="0" fill="url(#gradient)" fill-opacity="0.53" class="transition-all duration-300 ease-in-out delay-150 path-0"></path><defs><linearGradient id="gradient" x1="0%" y1="50%" x2="100%" y2="50%"><stop offset="5%" stop-color="#b64f6b"></stop><stop offset="95%" stop-color="#8ED1FC"></stop></linearGradient></defs><path d="M 0,600 L 0,500 C 99.78947368421055,508.3349282296651 199.5789473684211,516.6698564593302 296,521 C 392.4210526315789,525.3301435406698 485.47368421052636,525.6555023923445 575,490 C 664.5263157894736,454.3444976076555 750.5263157894736,382.7081339712919 856,350 C 961.4736842105264,317.2918660287081 1086.4210526315792,323.511961722488 1187,305 C 1287.5789473684208,286.488038277512 1363.7894736842104,243.244019138756 1440,200 L 1440,600 L 0,600 Z" stroke="none" stroke-width="0" fill="url(#gradient)" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-1"></path></svg>
+  </div>
+</body>
+
+</html>
