@@ -1,25 +1,24 @@
 
-
-# Organ Donation and Procurement Management System (ODPMS)
+# Organ Donation and Procurement Management System
 
 ## Introduction
 
-The Organ Donation and Procurement Management System (ODPMS) is designed to streamline the complex process of organ donation, ensuring efficiency, transparency, and ethical standards.
+The Organ Donation and Procurement Management System is designed to streamline the complex process of organ donation, ensuring efficiency, transparency, and ethical standards.Organ donation is a crucial and life-saving system that connects donors with recipients in need, providing a second chance at life. The ODPMS makes this process seamless and effective, ensuring that every donation counts.
 
 ## Key Features
 
-- **Donor Registration**: Secure registration and storage of donor information.
-- **Organ Procurement Coordination**: Facilitates coordination between hospitals, OPOs, and transplant centers.
-- **Logistical Management**: Manages the logistics of organ transportation with real-time tracking.
-- **Data Analytics and Reporting**: Generates reports and analytics to evaluate and improve organ donation programs.
-- **Communication and Collaboration**: Enhances communication among healthcare professionals and agencies.
+- **📝 Donor Registration**: Secure registration and storage of donor information.
+- **🤝 Organ Procurement Coordination**: Facilitates coordination between hospitals, OPOs, and transplant centers.
+- **🚚 Logistical Management**: Manages the logistics of organ transportation with real-time tracking.
+- **📊 Data Analytics and Reporting**: Displays graphs and analytics to evaluate and improve organ donation programs.
 
 ## Benefits
 
-- **Improved Efficiency**: Automates processes, reducing administrative burden and speeding up transplantation.
-- **Enhanced Transparency**: Provides real-time access to critical information.
-- **Increased Donation Rates**: Simplifies registration and encourages organ donation.
-- **Better Patient Outcomes**: Reduces wait times and improves the quality of life for recipients.
+- **⚡ Improved Efficiency**: Automates processes, reducing administrative burden and speeding up transplantation.
+- **🔍 Enhanced Transparency**: Provides real-time access to critical information.
+- **📈 Increased Donation Rates**: Simplifies registration and encourages organ donation.
+- **❤️ Better Patient Outcomes**: Reduces wait times and improves the quality of life for recipients.
+- **🌟 Excellent UI/UX**: Features an intuitive, user-friendly interface that enhances the user experience for all stakeholders.
 
 ## Technologies Used
 
@@ -27,57 +26,17 @@ The Organ Donation and Procurement Management System (ODPMS) is designed to stre
 - **Database**: MySQL
 - **Frontend**: HTML, CSS, JavaScript
 
-## Installation and Setup
+## 📹 Watch the Demo
 
-1. **Clone the Repository**:
-   ```sh
-   git clone https://github.com/your-repository/odpms.git
-   ```
-
-2. **Navigate to the Project Directory**:
-   ```sh
-   cd odpms
-   ```
-
-3. **Set Up Virtual Environment**:
-   ```sh
-   python -m venv venv
-   source venv/bin/activate   # On Windows, use `venv\Scripts\activate`
-   ```
-
-4. **Install Dependencies**:
-   ```sh
-   pip install -r requirements.txt
-   ```
-
-5. **Configure the Database**:
-   - Open MySQL Workbench.
-   - Create a new database.
-   - Update `config.py` with your database credentials:
-     ```python
-     SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://username:password@localhost/db_name'
-     ```
-
-6. **Run Database Migrations**:
-   ```sh
-   flask db init
-   flask db migrate -m "Initial migration"
-   flask db upgrade
-   ```
-
-7. **Run the Application**:
-   ```sh
-   flask run
-   ```
-
-## Usage
-
-- Access the application at `http://localhost:5000`.
-- Register as a donor, manage organ procurement and allocation, track logistics, and generate reports.
-
+[![Watch the Demo](https://github.com/KavyaSingh236/OrganDonation/blob/main/thumbnail.jpg)](https://youtu.be/MAR3K76W2N0)
 
 
 ## Contributing
 
 Contributions are welcome! Please submit a pull request or open an issue to discuss your ideas.
+
+## Contact
+
+- **LinkedIn**: [Kavya Singh](https://www.linkedin.com/in/kavya-singh-690888292/)
+- **GitHub**: [Kavya Singh](https://github.com/KavyaSingh236)
 
